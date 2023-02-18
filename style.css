@@ -199,5 +199,79 @@ section span {
 
 .btnSell:hover {
     box-shadow: 1px 1px 20px 8px #240046;
-    back
+}
+@media screen and (max-width:767px){
+   
+    body
+    {
+       height: 100vh;
+       width: 100vw; 
+    }
+    nav {
+
+        display: block;
+        text-align: center;
+        padding-top: 55px;
+        margin-bottom: 30px;
+    }
+    nav ul{
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    nav ul li
+    {
+        margin: 16px 0px;
+    }
+    nav:hover ul
+    {
+        transition: 0.8s;
+        display: block;
+    }
+    main{
+
+        padding: 15px;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cat
+    {
+        display: none;
+    }
+    main h1
+    {
+        font-size: 4em;
+        line-height: 65px;
+    }
+    .icons
+    {
+        margin-top: 40px;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .btn
+    {
+        width: 100%;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:580px){
+
+    section h1{
+        font-size: 3em;
+    }
+    section
+    {
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
